@@ -1,0 +1,20 @@
+[
+    { "symbol": "01d", "description": "Ensoleillé, ciel dégagé"},
+    { "symbol": "01n", "description": "Croissant lune, ciel dégagé"},
+    { "symbol": "02d", "description": "Ensoleillé, ciel nuagueux"},
+    { "symbol": "02n", "description": "Croissant lune, ciel nuageux"},
+    { "symbol": "03d", "description": "Ciel couvert"},
+    { "symbol": "03n", "description": "Ensoleillé, ciel nuagueux"},
+    { "symbol": "04d", "description": "Ciel couvert"},
+    { "symbol": "04n", "description": "Croissant lune, ciel nuageux"},
+    { "symbol": "09d", "description": "Petite pluie"},
+    { "symbol": "09n", "description": "Grosse pluie"},
+    { "symbol": "10d", "description": "Grosse pluie"},
+    { "symbol": "10n", "description": "Grosse pluie"},
+    { "symbol": "11d", "description": "Ciel couvert, éclair"},
+    { "symbol": "11n", "description": "Ciel couvert, éclair"},
+    { "symbol": "13d", "description": "Ciel neigeux"},
+    { "symbol": "13n", "description": "Ciel neigeux"},
+    { "symbol": "50d", "description": "Ciel couvert"},
+    { "symbol": "50n", "description": "Ciel couvert"}
+]
