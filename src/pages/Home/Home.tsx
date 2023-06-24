@@ -34,9 +34,9 @@ export default function Home () {
     });
     const [ descript ] = useState<DescriptionDatas[]>(descriptions);
     const [ descripFiltered, setDescription ] = useState<DescriptionDatas[]>([{symbol: "01d", description:"Ensoleillé"}])
-    const API_KEY = 'e8798c56-b76d-43fa-81f6-3ff559da424b'
+    const API_KEY = process.env.API_KEY;
 
-    function fetchApi (apiKey: string) {
+    function fetchApi (apiKey: string | undefined) {
         fetch(`http://api.airvisual.com/v2/nearest_city?&country=france&city=cambrai&key=${apiKey}`)
         .then(response => response.json())
         .then(datas => {
